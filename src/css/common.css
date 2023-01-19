@@ -16,3 +16,40 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.field {
+  background-color: aqua;
+}
+
+.timer {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  margin-top: 50px;
+}
+.field {
+  width: 105px;
+  height: 105px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.value {
+  display: flex;
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  font-size: 20px;
+  /* margin-bottom: 10px; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
